@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="styles_formulario_para_contato.css"> <!-- Importa o arquivo de estilos CSS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="POST"> <!-- Formulário de envio com método POST -->
+            <div class="form-group">
+                <label for="nome">Nome:</label> <!-- Rótulo para o campo de nome -->
+                <input type="text" id="nome" name="nome" required> <!-- Campo de entrada para o nome -->
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label> <!-- Rótulo para o campo de e-mail -->
+                <input type="email" id="email" name="email" required> <!-- Campo de entrada para o e-mail -->
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label> <!-- Rótulo para o campo de mensagem -->
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea> <!-- Campo de entrada para a mensagem -->
+            </div>
+            <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+        </form>
+    </div>
+    <a href="index.html">Voltar</a>
+</body>
+</html>

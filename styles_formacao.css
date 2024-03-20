@@ -1,0 +1,49 @@
+/* Estilos para o contêiner principal */
+.container {
+    width: 80%; 
+    margin: 20px auto; 
+    background-color: #fff; 
+    padding: 30px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+/* Estilos para a imagem de perfil */
+.header img {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 20px; 
+    border: 5px solid #fff; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilos para o título principal */
+h1 {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    font-size: 32px; 
+    margin-bottom: 20px; 
+}
+
+/* Estilos para títulos secundários */
+h2 {
+    color: #555; 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+
+/* Estilos para parágrafos */
+p {
+    font-size: 18px; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

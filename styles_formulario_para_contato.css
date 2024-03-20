@@ -1,0 +1,63 @@
+/* Estilos para o formulário de contato */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f9f9f9; 
+    margin: 0; 
+    padding: 0;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    width: 80%; 
+    margin: 50px auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilos para o título do formulário */
+h2 {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+/* Estilos para grupos de formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para rótulos do formulário */
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+/* Estilos para o botão de envio */
+button[type="submit"] {
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+/* Estilos para o botão de envio ao passar o mouse */
+button[type="submit"]:hover {
+    background-color: #555; 
+}

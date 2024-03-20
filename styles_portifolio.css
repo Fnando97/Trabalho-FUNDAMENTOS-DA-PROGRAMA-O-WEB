@@ -1,0 +1,64 @@
+/* Estilos para a página de portfólio */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+/* Estilos para a barra de navegação no cabeçalho */
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+/* Estilos para os links na barra de navegação */
+nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Estilos para os links na barra de navegação ao passar o mouse */
+nav ul li a:hover {
+    color: #ffcc00; 
+}
+
+/* Estilos para as seções */
+section {
+    padding: 50px 0; 
+}
+
+/* Estilos para os títulos das seções */
+section h2 {
+    text-align: center; 
+    font-size: 36px; 
+    margin-bottom: 40px; 
+}
+
+/* Estilos para os projetos */
+.project {
+    background-color: #fff; 
+    padding: 30px; 
+    margin-bottom: 40px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilos para os links de contato */
+.contact a {
+    color: #ffcc00; 
+    text-decoration: none; 
+    font-size: 24px; 
+    transition: color 0.3s ease; 
+}
+
+/* Estilos para os links de contato ao passar o mouse */
+.contact a:hover {
+    color: #fff; 
+}
